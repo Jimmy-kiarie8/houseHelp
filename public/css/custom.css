@@ -1,0 +1,162 @@
+body {
+  background-color: hsla(0, 0%, 96%, 1);
+}
+
+a {
+  color: hsl(217, 45%, 45%);
+}
+
+.course-headline {
+  cursor: pointer;
+}
+.course-headline:hover {
+  font-weight: bolder;
+}
+
+dd {
+  font-weight: 300;
+}
+dd:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+dt {
+  font-weight: 500;
+}
+
+.headline {
+  position: relative;
+  text-align: center;
+}
+
+.headline span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.headline:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+.headline:before {
+  left: 0;
+}
+
+.external {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.external span {
+  background: hsl(217, 45%, 45%);
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+.external:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+.external:before {
+  left: 0;
+}
+
+p.header-text {
+  font-size: .75rem;
+}
+p::selection, h1::selection, ::selection {
+  background-color: #dbe8ff;
+  color: #235ebc;
+}
+
+ul {
+  list-style: none;
+}
+
+.card-boxing {
+  background-color: white;
+  padding: 25px;
+}
+
+.column-shadow {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(163,163,163,1);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(163,163,163,1);
+  box-shadow: 3px 3px 5px 0px rgba(163,163,163,1);
+}
+
+.is-2 {
+  padding-right: 0px;
+  padding: 0;
+}
+
+.columns {
+  padding: 0;
+}
+
+.course-detail {
+  margin-left: 0;
+}
+
+.course:not(:last-child)  {
+  padding-bottom: 0em;
+}
+
+.cv-section {
+  margin-bottom: 15px;
+}
+
+.cvitem {
+  padding: 0 0 0 2em;
+}
+
+.cvitem:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+
+.detail-item {
+  margin-bottom: 1rem;
+}
+.headline .icon {
+  margin-right: 5px;
+}
+
+.header-text {
+  margin-bottom: 0px !important;
+}
+
+.profile {
+  background-color: hsl(217, 45%, 45%);
+  height: 100%;
+  padding: 15px;
+}
+
+.profile-image img {
+  border: 1px white solid;
+  border-radius: 64px;
+  padding: 2px;
+}
+
+.subheader-text {
+  font-size: 1rem;
+}
+.timeline {
+  float: left;
+}
+.timeline-bar {
+  border-left: 0.1rem dashed #dbdbdb;
+  color: transparent;
+  line-height: 5em;
+  margin-left: 10px;
+  padding-bottom: 0em;
+}
